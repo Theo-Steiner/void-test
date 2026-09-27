@@ -2,5 +2,7 @@
   "name": "void-test",
   "compatibility_date": "2026-02-24",
   "compatibility_flags": ["nodejs_compat", "nodejs_als"],
-  "account_id": "c2e4bcc2d1e6af768d4f53906cac8731"
+  "account_id": "c2e4bcc2d1e6af768d4f53906cac8731",
+  // Void doesn't infer Workers AI in SvelteKit mode; remote = use real AI in dev
+  "ai": { "binding": "AI", "remote": true }
 }
