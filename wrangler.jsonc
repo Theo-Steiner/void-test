@@ -3,6 +3,19 @@
   "compatibility_date": "2026-02-24",
   "compatibility_flags": ["nodejs_compat", "nodejs_als"],
   "account_id": "c2e4bcc2d1e6af768d4f53906cac8731",
-  // Void doesn't infer Workers AI in SvelteKit mode; remote = use real AI in dev
-  "ai": { "binding": "AI", "remote": true }
+  "ai": {
+    "binding": "AI",
+    "remote": true
+  },
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "no_bundle": false,
+  "assets": {
+    "directory": ".svelte-kit/cloudflare",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "none"
+  },
+  "triggers": {
+    "crons": []
+  }
 }
