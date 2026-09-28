@@ -3,10 +3,6 @@
   "compatibility_date": "2026-02-24",
   "compatibility_flags": ["nodejs_compat", "nodejs_als"],
   "account_id": "c2e4bcc2d1e6af768d4f53906cac8731",
-  "ai": {
-    "binding": "AI",
-    "remote": true
-  },
   "main": ".svelte-kit/cloudflare/_worker.js",
   "no_bundle": false,
   "assets": {
