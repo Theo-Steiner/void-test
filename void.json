@@ -3,5 +3,8 @@
   "sourceDir": "src",
   "worker": {
     "compatibility_date": "2026-02-24"
+  },
+  "routing": {
+    "revalidate": 60
   }
 }
